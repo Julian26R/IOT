@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Nixie One', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+
+header{
+	position:fixed;
+	background-color:#FBF7F7;
+	opacity:0.8;
+	}
+
+div{
+   height:400px;
+   width: 100%;
+   background-image:url(../images/s4a-icon.png), url(../images/arduino-icon.png), url(../images/arduinohome2.png);
+   background-repeat: no-repeat;
+   background-position: left top, right bottom, 0 0;
+        }
+a{
+	text-decoration:none;
+	color:#000000;
+	display:inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight:bold;
+	}
+	
+a:hover{
+	display:inline-block;
+	font-family: 'Poiret One', cursive;
+	color:#077367;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	
+	}
+		
+.form_td{
+	background-color:#383838;
+	opacity:0.8;
+	width:30%;
+	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+	
+	}
+	
+	
+.celda{
+	background-color:#F9F5F6;
+	opacity:0.9;
+	color:#000000;
+	font-weight:bold;
+	border-radius:5px;
+	}
+
+.art_reg{
+	background-image:url(../images/bannerregistro2.png);
+	width: 80%;
+	
+	}
+
+section{
+	width:100%;
+	text-align:center;
+	/*background-color:#222121;
+	background-image:url(../images/fondopage.png);*/
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+	}
+	
+header{
+	width:100%;
+	}
+
+nav{
+	text-align:right;
+	}
+
+
+.msg_intermedios{
+	font-family: 'Poiret One', cursive;
+	font-size:60px;
+	color:#494949;
+	font-style:normal;
+	text-align:center;
+	
+	
+	}
+	
+.section_reg{
+	background-image:url(../images/bannerformulario.png);
+	}	
+	
+	
+.tit_art1{
+	font-family: 'Poiret One', cursive;
+	font-size:40px;
+	color:#069597;
+	
+	}
+	
+.tit_art2{
+	font-family: 'Poiret One', cursive;
+	font-size:30px;
+	color:#059BC1;
+	
+		}
+	
+.article_form{
+   font-family: 'Poiret One', cursive;
+   font-size:16px;
+   /*color:#DDD7D7; */
+   color:#000000;
+   background-image:url(../images/bannerregistro2.png );
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size:cover;}
+
+.article_3{
+	display:inline-block;
+	 vertical-align:top;
+	width: 25%;
+	 height:400px;
+	font-family: 'Poiret One', cursive;
+	font-size:16px;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:justify;
+	color:#DDD7D7;
+	background-color:#F40D11;
+	}
+	
+.article_4{
+	display:inline-block;
+	vertical-align:top;
+	width: 23%;
+	font-family: 'Poiret One', cursive;
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	
+	
+		}
+	
+	
+.article_5{
+	display:inline-block;
+	vertical-align:top;
+	width: 18%;
+	font-family: 'Poiret One', cursive;
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+	
+	
+		}	
+		
+.article_h{
+	font-family: 'Poiret One', cursive;
+	font-size:16px;
+    width:80%;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:justify;
+	display:inline-block;
+	font-weight:bold;
+	/*color:#DDD7D7; */
+	color:#000000;
+
+	}
+	
+	.article_2{
+	display:inline-block;
+	font-family: 'Poiret One', cursive;
+	font-size:16px;
+    width:40%;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:justify;
+	display:inline-block;
+	font-weight:bold;
+	/*color:#DDD7D7; */
+	color:#000000;
+
+	}
+	
+.check_list{
+	width:1.2%;
+	
+	}
+	
+.check_list2{
+	width:5%;
+	
+	}
+	
+.img_sep{
+		width:100%;
+	}
+	
+.img_banner{
+	width:100%;
+	}
+	
+.img_icon{
+	width:60%;
+	text-align:center;
+	
+	}
+	
+.menu{
+	display:inline-block;
+	margin:20px 20px 20px 20px;
+	padding: 8px 8px 8px 8px;
+	font-family: 'Poiret One', cursive;
+	font-weight:bold;
+	list-style-image:url(../images/check.png);
+	
+	}
+	
+.menu:hover{
+	display:inline-block;
+	margin:20px 20px 20px 20px;
+	padding: 8px 8px 8px 8px;
+	font-family: 'Poiret One', cursive;
+	color:#077367;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	}
+	
+.input_text_sup
+	{
+	border-radius:5px 5px 5px 5px ;
+	box-sizing:content-box;
+	opacity:0.7;
+	font-size:16px;
+	color:#000000;
+	font-weight:bold;
+	width:50%
+	}
+	
+	
+.input_text_medio{
+	background-color:#747272;
+	border:none;
+	box-sizing:content-box;;
+	}
+	
+.input_text_inf{
+	background-color:#747272;
+	border-radius: 0px 0px 5px 5px;
+	border:none;
+	box-sizing:content-box;
+	}
+	
+input:-webkit-input-placeholder {
+  color: black;
+    font-weight:bold; 
+}
+input:-moz-placeholder {
+  color: black; 
+    font-weight:bold; 
+}
+input:-ms-input-placeholder { 
+  color: black;
+  font-weight:bold; 
+}
+
+.inversion{
+	font-family: 'Poiret One', cursive;
+	font-size:24px;
+	font-weight:bold;
+		}
+		
+		
+.text_footer{
+	font-family: 'Poiret One', cursive;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+		
+	}
+	
+.img_talleristas{
+	border-radius:150px;
+	width:250px;
+	}	

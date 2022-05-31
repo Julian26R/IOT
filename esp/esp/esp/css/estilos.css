@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Nixie One', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+body{
+	background-color: black;
+	
+	
+}
+header{
+	/*position:fixed;*/
+	opacity:0.8;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	color:darkorange;
+	}
+
+div{
+   height:400px;
+   width: 100%;
+   background-image:url(../images/s4a-icon.png), url(../images/arduino-icon.png), url(../images/arduinohome2.png);
+   background-repeat: no-repeat;
+   background-position: left top, right bottom, 0 0;
+        }
+a{
+	text-decoration:none;
+	color:#333;
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	}
+	
+a:hover{
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+	color:#077367;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	
+	}
+		
+.form_td{
+	background-color:#383838;
+	opacity:0.8;
+	width:30%;
+	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+	
+	}
+	
+	
+.celda{
+	background-color:#F9F5F6;
+	opacity:0.9;
+	color:#000000;
+	font-weight:bold;
+	border-radius:5px;
+	}
+
+.art_reg{
+	background-image:url(../images/arduinohome2.png);
+	width: 80%;
+	
+	}
+
+section{
+	width:100%;
+	text-align:center;
+	/*background-color:#222121;
+	background-image:url(../images/fondopage.png);*/
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+	}
+	
+
+
+nav{
+	text-align:right;
+	}
+
+
+.msg_intermedios{
+	/*font-family: 'Poiret One', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size:60px;
+	color:#7AC508;
+	font-style:normal;
+	text-align:center;
+	
+	
+	}
+	
+.section_reg{
+	background-image:url(../images/bannerformulario.png);
+	}	
+	
+	
+.tit_fecha_tit{
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	text-align:center;
+	color:blanchedalmond;
+	
+	}
+.tit_fecha{
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	text-align:center;
+	color:coral;
+	
+	}
+	
+.tit_art2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	text-align:Center;
+	color:blanchedalmond;
+		}
+
+.sub_tit_art2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	text-align:left;
+	color:blanchedalmond;
+		}
+
+.num_art2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:200px;
+	text-align:center;
+	color:blue;
+		}
+
+.article2{
+	display:inline-block;
+	vertical-align:top;
+	width: 40%;
+	font-family: 'Montserrat', sans-serif;
+	/*padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; */
+	text-align:left;
+	color:darkorange;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 2px;
+		}
+
+.article2sin{
+	display:inline-block;
+	vertical-align:top;
+	width: 40%;
+	font-family: 'Montserrat', sans-serif;
+	text-align:left;
+	color:darkorange;
+	
+		}
+
+.article2_t{
+	display:inline-block;
+	vertical-align:top;
+	width: 40%;
+	font-family: 'Montserrat', sans-serif;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:left;
+	color:#333;
+}
+
+.article_form{
+  font-family: 'Montserrat', sans-serif;
+   font-size:16px;
+   /*color:#DDD7D7; */
+   color:#333;
+   background-image:url(../images/arduinohome2.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size:cover;}
+
+.article_3{
+	display:inline-block;
+	 vertical-align:top;
+	width: 25%;
+	 height:400px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:justify;
+	color:#333;
+	background-color:#F40D11;
+	}
+	
+.article_4{
+	display:inline-block;
+	vertical-align:top;
+	width: 23%;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:bold;
+	text-align:center;
+	
+	
+		}
+.article_5{
+	display:inline-block;
+	vertical-align:top;
+	width: 18%;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:bold;
+	text-align:center;
+	
+	
+		}		
+		
+.article_h{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	width: 80%;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+	display: inline-block;
+	font-weight: bold;
+	/*color:#DDD7D7; */
+	color: #333;
+
+	}
+	
+	.article_2{
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+    width:40%;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px; 
+	text-align:justify;
+	display:inline-block;
+	font-weight:bold;
+	/*color:#DDD7D7; */
+	color:#333;
+
+	}
+	
+.check_list{
+	width:1.2%;
+	
+	}
+	
+.check_list2{
+	width:5%;
+	
+	}
+	
+.img_sep{
+		width:100%;
+	}
+	
+.img_banner{
+	width:100%;
+	}
+	
+.img_icon{
+	width:60%;
+	text-align:center;
+		}
+	
+	
+.img_footer{
+	width: 50%;
+	
+	
+	}	
+.menu{
+	display:inline-block;
+	margin:20px 20px 20px 20px;
+	padding: 8px 8px 8px 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	list-style-image:url(../images/check.png);
+	
+	}
+	
+.menu:hover{
+	display:inline-block;
+	margin:20px 20px 20px 20px;
+	padding: 8px 8px 8px 8px;
+	font-family: 'Montserrat', sans-serif;
+	color:#077367;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	}
+	
+.input_text_sup
+	{
+	border-radius:5px 5px 5px 5px ;
+	box-sizing:content-box;
+	opacity:0.7;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	width:50%
+	}
+	
+	
+.input_text_medio{
+	background-color:#747272;
+	border:none;
+	box-sizing:content-box;;
+	}
+	
+.input_text_inf{
+	background-color:#747272;
+	border-radius: 0px 0px 5px 5px;
+	border:none;
+	box-sizing:content-box;
+	}
+	
+input::-webkit-input-placeholder {
+  color: black;
+    font-weight:bold; 
+}
+input:-moz-placeholder {
+  color: black; 
+    font-weight:bold; 
+}
+input:-ms-input-placeholder { 
+  color: black;
+  font-weight:bold; 
+}
+
+.inversion{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+		}
+		
+
+
+.text_header{
+	font-family: 'Montserrat', sans-serif;
+	font-size:80px;
+	font-weight:bold;
+	text-align:center;
+		
+	}
+.text_footer{
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+		
+	}
+	
+.img_talleristas{
+	border-radius:150px;
+	width:250px;
+	}	
